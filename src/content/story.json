@@ -1,0 +1,266 @@
+{
+  "cast": {
+    "mentor": "Idris Varrow",
+    "mentorShort": "Idris",
+    "partner": "Tamsin Hale",
+    "partnerShort": "Tamsin",
+    "region": "the Hollow Reach"
+  },
+  "title": {
+    "name": "The Cartographer",
+    "tagline": "Follow the maps. Uncover the truth. Complete the landscape.",
+    "newGame": "Begin",
+    "continue": "Continue",
+    "intro": "{mentor} is the last cartographer of the Order of the Long Chain, and he is too ill to walk.\n\nOne region is still blank on the Order's charts: {region}. Its springs are failing and its old waterworks are falling silent. Before he passes on his title, it must be mapped.\n\nYou are going in his place."
+  },
+  "zones": {
+    "1": {
+      "name": "The Trailhead",
+      "objective": "Find the three survey stakes and sight them on the cairn."
+    },
+    "2": {
+      "name": "The Flooded Terraces",
+      "objective": "Turn the sluice gates until the water leaves by the outfall."
+    },
+    "3": {
+      "name": "The Whisper Pines",
+      "objective": "Follow the wind chimes through the fog."
+    },
+    "4": {
+      "name": "The Shattered Overlook",
+      "objective": "Climb the old route to the summit."
+    },
+    "5": {
+      "name": "The Vault",
+      "objective": "Set the two dials to the marks you gathered."
+    },
+    "0": {
+      "name": "The Ring Road",
+      "objective": "Three roads leave the ring. Map what lies at the end of each."
+    }
+  },
+  "objectives": {
+    "vaultLocked": "The Vault gate will not move until the other four places are on the map.",
+    "vaultOpen": "The road to the middle is open.",
+    "finish": "Lay your map on the table.",
+    "done": "The map is complete. Walk as long as you like."
+  },
+  "texts": {
+    "z1.signpost": {
+      "title": "Broken signpost",
+      "body": "The board has split along the grain. What is left reads:\n\nHOLLOW REA—\nNO SURVEY PAST THIS P—\n\nSomeone has scratched underneath, small and neat, with the point of a divider:\n\n\"Yes there is. — T.H.\""
+    },
+    "z1.letter": {
+      "title": "A letter, weighted under a stone",
+      "body": "Little compass,\n\nIf you are reading this, the camp was where I said it would be, which means my memory is better than my lungs.\n\nYou will want to know why the Order left this place blank. It was not for lack of trying. Four parties came here before us. Every one of them walked out with a ruined map. Their bearings would not close. A line walked north for a mile came back a hand's width from where it began. They called the ground cursed, drew a neat border around it, and wrote DO NOT SURVEY.\n\nThe ground is not cursed. Their mistake was assuming it was ordinary.\n\n{partner} said so first, and louder than was wise. I said it second, and quieter, and by then it didn't matter.\n\nThe stakes we left are still here somewhere. Sight all three on the cairn and you will see where we went in.\n\nDraw what is there. Not what you expect.\n\n— {mentor}"
+    },
+    "z1.theodolite": {
+      "title": "Rusted theodolite",
+      "body": "A brass theodolite on a rotted tripod, seized solid.\n\nThe maker's plate is older than the Order's records allow. One of the four lost parties left this behind. They carried their maps out and left their instrument, as if it had insulted them."
+    },
+    "z1.cairn": {
+      "title": "The first survey's cairn",
+      "body": "Nine flat stones. On the top one, two sets of initials cut side by side:\n\nI.V.   T.H.\n\nThe second set is cut deeper."
+    },
+    "z1.solved": {
+      "title": "Three lines, one point",
+      "body": "The three vanes agree. Where their lines cross, the thicket is not thicket at all. It is a hurdle of woven branches, set there to be found by someone who knew how to look.\n\nIt lifts away easily. Beyond it, a road runs dead straight."
+    },
+    "z2.spring": {
+      "title": "The spring head",
+      "body": "Water comes out of the hill through a cut stone mouth and into a channel as straight as a ruled line.\n\nSprings do not come with channels. Somebody put this water here on purpose and told it where to go."
+    },
+    "z2.statue": {
+      "title": "The drowned figure",
+      "body": "A stone figure, knee-deep, holding a long staff upright against the sky. Not a weapon. A levelling rod, marked in even divisions.\n\nWhoever these people were, the thing they chose to carve was a surveyor."
+    },
+    "z2.tally": {
+      "title": "Tally stones",
+      "body": "A row of low stones, each scored with strokes in groups of five. Water heights, season by season.\n\nThe last stone is only half filled. The strokes get shallower toward the end, as if the hand was tired, or the chisel was."
+    },
+    "z2.carvings": {
+      "title": "Carvings on the hidden terrace",
+      "body": "The wall under the waterline is covered in cut marks: contour lines, bearings, a scale bar. It is a map. It is the same shape as the sketches in the back of {mentorShort}'s old notebook, the ones he never explained.\n\nSomeone mapped here before the Order ever came. Not on paper. In the ground itself.\n\nAt the centre of the wall one mark is cut deeper than the rest: three waves over a level line.\n\nYou copy it into the journal."
+    },
+    "z3.chime": {
+      "title": "A wind chime in the pines",
+      "body": "Five brass tubes on a loop of surveyor's chain, hung at head height.\n\nThe chain is the Order's pattern. This is not old. Somebody hung this within a lifetime, and hung it where the wind would carry it to the next one."
+    },
+    "z3.stones": {
+      "title": "Standing stones",
+      "body": "A ring of seven stones, shoulder high. Each has a notch cut in its top edge.\n\nStand in the middle and every notch frames another stone exactly. It is a sighting circle. An instrument you stand inside."
+    },
+    "z3.hollow": {
+      "title": "The hollow pine",
+      "body": "A field satchel, pushed deep into a hollow trunk and forgotten. Inside: a stub of pencil, a tin of chalk, and a page of calculations that ends mid-line.\n\nIn the margin, the same hand as the signpost:\n\n\"It closes if you assume a centre. {mentorShort} will laugh.\""
+    },
+    "z3.grave": {
+      "title": "A marker in the clearing",
+      "body": "A slab of slate, set upright and squared with care. The lettering is {mentorShort}'s. You would know his serifs anywhere.\n\n{partnerUpper}\nCARTOGRAPHER\nSHE WAS RIGHT TO LOOK\n\nBelow the name is her mark, the one from the signpost: an open pair of dividers over a single point.\n\nHe found her. He buried her, hung her chimes so he could find his way back, and never came back.\n\nYou copy the mark into the journal."
+    },
+    "z3.locket": {
+      "title": "Half a brass compass",
+      "body": "At the foot of the slate, under a flat stone: the lid of a pocket compass, hinge snapped clean.\n\nEngraved inside: \"— so you can always find\"\n\nThe sentence stops at the broken edge."
+    },
+    "z4.slab": {
+      "title": "The route slab",
+      "body": "A slab at the foot of the climb, cut with four marks in a column, read from the bottom up:\n\n{route}\n\nBeneath them, in plain script: \"Trust the marked holds. The others were never meant to bear weight.\""
+    },
+    "z4.lens": {
+      "title": "A fallen lens",
+      "body": "A disc of ground glass the width of a cartwheel, cracked across, lying where it fell.\n\nIt was mounted up here once. Something on this hill was built for looking down."
+    },
+    "z4.cache": {
+      "title": "Rope cache",
+      "body": "A coil of rope under a ledge, gone stiff with age, and an iron piton stamped with the Order's chain.\n\nTied to the rope, a paper tag gone brown: \"Left for whoever comes next. Mind the third tier. — T.\""
+    },
+    "z4.summit": {
+      "title": "The summit mark",
+      "body": "A brass disc is set in the rock at the highest point. You stand on it and turn once, all the way round.\n\nThe ring road is a true circle. The three roads leave it at perfect right angles. The terraces, the pines, the hill you are standing on: each sits the same distance from the middle, at a cardinal point.\n\nNo river does this. No weather does this.\n\nThe Hollow Reach was not found. It was built. It is a compass rose a mile across, and you are standing on its north point.\n\n{partnerShort} said the land itself was the map. They laughed her out of the Order's hall for it.\n\nAt the centre of the rose, something is waiting."
+    },
+    "z4.crumble": {
+      "title": "",
+      "body": "The hold breaks away under your hand. Not that one."
+    },
+    "z5.gate": {
+      "title": "Inscription over the gate",
+      "body": "Cut in the lintel, in letters worn almost smooth:\n\nHERE THE GROUND WAS FIRST MEASURED.\nENTER HAVING MEASURED IT AGAIN."
+    },
+    "z5.frieze": {
+      "title": "The founders' frieze",
+      "body": "A band of carving runs around the inner wall. Figures with rods and chains, laying out a circle. Figures digging channels. Figures planting trees in rows.\n\nIn the last panel the figures are walking away, and one of them is looking back."
+    },
+    "z5.dialHint": {
+      "title": "The two dials",
+      "body": "Two stone dials stand before the sealed floor. Under the left one: WHAT THE WATER KEPT. Under the right one: WHAT THE PINES KEPT."
+    },
+    "z5.opened": {
+      "title": "The seal turns",
+      "body": "The two marks sit true. Under your feet something heavy and patient lets go, and the stone floor sinks and slides aside without a sound.\n\nIt has been waiting a long time for someone to bring both halves of the answer."
+    },
+    "z5.log": {
+      "title": "{partner}'s last log",
+      "body": "A waxed field book, left open on the edge of the table.\n\n\"Day 31. I am inside. I was right, and there is nobody here to be insufferable at.\n\nThe Reach is an instrument. The first surveyors built a country-sized compass rose and used it to teach themselves how to measure the world. The table in this room is their first map, and it is a map of the room's own surroundings, made before the surroundings existed. They drew it, then they built it.\n\nThe springs are failing because nobody has tended the channels in four hundred years. It is not dying. It is unattended.\n\nMy ankle will not get me back across the pines before the cold. I have decided not to mind as much as I might.\n\n{mentorShort} — it closes if you assume a centre. Come and see. Bring someone young, they'll like the hill.\""
+    },
+    "z5.compass": {
+      "title": "The other half",
+      "body": "In a niche by the table: the body of a brass pocket compass, lid missing, needle still swinging.\n\nYou set the lid from the pines against it. The engraving runs across the join and finishes:\n\n\"— so you can always find / your way back to me.\"\n\nIt was a matched pair. One of them stayed with her. The other, you realise, is the one {mentorShort} pressed into your hand the morning you left."
+    },
+    "z5.ending": {
+      "title": "The map complete",
+      "body": "You lay your map on the stone table, beside the first one.\n\nThey match. Not nearly. Exactly. Ring for ring, road for road, four hundred years apart.\n\nThe Order will have its last blank filled. But that is not who you drew it for.\n\nYou will carry it home and unroll it across {mentorShort}'s blanket, and you will put your finger on the clearing in the pines, and then on the middle, and you will tell him what {partnerShort} wrote.\n\nShe was right. He was right to send you.\n\nAnd the Reach is not dying. It only needs someone to tend it."
+    },
+    "credits": {
+      "title": "Credits",
+      "body": "THE CARTOGRAPHER\n\nA game by Ajay Kumar Srivastava\nBuilt with Claude\n\nEngine: three.js (MIT licence)\n\nAll scenery in this build is generated in code. All sound is synthesised in the browser. No third-party art or audio assets are used.\n\nEpilogue\n\nIn spring a party of nine walked into the Hollow Reach with spades instead of chains. They cleared the first channel in a week.\n\nThe new edition of the Order's chart carries two names in the corner, side by side, and a third beneath them in a younger hand."
+    },
+    "z5.compassAlone": {
+      "title": "A brass compass, lid missing",
+      "body": "In a niche by the table: the body of a brass pocket compass, needle still swinging. The lid has been snapped off at the hinge.\n\nEngraved around the rim, the end of a sentence:\n\n\"— your way back to me.\"\n\nThe first half must be on the lid, wherever that is. You have a feeling it is somewhere quiet, under trees."
+    },
+    "z3.locketLate": {
+      "title": "Half a brass compass",
+      "body": "At the foot of the slate, under a flat stone: the lid of a pocket compass, hinge snapped clean.\n\nEngraved inside: \"— so you can always find\"\n\nYou hold it against the compass from the Vault. The engraving runs across the join and finishes:\n\n\"— so you can always find / your way back to me.\"\n\nA matched pair. One stayed with her. The other is the one {mentorShort} pressed into your hand the morning you left."
+    }
+  },
+  "interact": {
+    "read": "Read",
+    "look": "Look",
+    "stakeRight": "Set the stake upright",
+    "stakeTurn": "Turn the sighting vane",
+    "gateTurn": "Turn the sluice wheel",
+    "climb": "Climb",
+    "dialTurn": "Turn the dial",
+    "take": "Pick up",
+    "placeMap": "Lay your map on the table",
+    "survey": "Stand on the mark"
+  },
+  "captions": {
+    "chime": "Wind chime",
+    "chimeNear": "The chime falls quiet. Another answers, further in.",
+    "water": "Water running",
+    "gate": "Stone grinds; water changes course",
+    "click": "The vane settles with a click",
+    "drain": "The pool is draining",
+    "flood": "The pool is filling",
+    "seal": "Deep stone moving",
+    "crumble": "Rock crumbles"
+  },
+  "hints": {
+    "z1.a": "Three stakes were left near the camp. One by the birches to the west, one to the east, one near the road.",
+    "z1.b": "Each vane turns an eighth at a time. All three want to look at the same thing: the cairn in the gap to the north.",
+    "z2.a": "Follow each stone channel with your eyes. Every wheel sends the water one of two ways.",
+    "z2.b": "The far wheel can only be reached while the long basin is dry. Set it first, then send the water past it.",
+    "z3.a": "Only one chime rings at a time. Walk to it, and the next one takes over.",
+    "z3.b": "Watch for the rings of light in the fog, and the arrow at the top of the screen.",
+    "z4.a": "The slab at the foot of the hill lists four marks, bottom to top. It is in your journal.",
+    "z4.b": "On each tier, three holds are cut. Only the one carrying the slab's mark for that tier will bear weight.",
+    "z5.a": "The left dial wants the mark from the hidden terrace. The right dial wants the mark from the grave.",
+    "z5.b": "Both marks are drawn in your journal."
+  },
+  "achievements": {
+    "first_lines": {
+      "title": "First Lines",
+      "desc": "Reveal the hidden road at the Trailhead.",
+      "hidden": false
+    },
+    "drained_charted": {
+      "title": "Drained and Charted",
+      "desc": "Drain the Flooded Terraces and read what the water was covering.",
+      "hidden": false
+    },
+    "followed_sound": {
+      "title": "Followed the Sound",
+      "desc": "Follow the chimes to the clearing in the Whisper Pines.",
+      "hidden": false
+    },
+    "view_above": {
+      "title": "The View From Above",
+      "desc": "Reach the summit of the Shattered Overlook.",
+      "hidden": false
+    },
+    "map_complete": {
+      "title": "The Map Complete",
+      "desc": "Open the Vault and finish the map.",
+      "hidden": false
+    },
+    "nothing_uncharted": {
+      "title": "Nothing Left Uncharted",
+      "desc": "Find every landmark in the Hollow Reach.",
+      "hidden": true
+    },
+    "old_partners": {
+      "title": "Old Partners",
+      "desc": "Bring the two halves of the compass together.",
+      "hidden": true
+    }
+  },
+  "ui": {
+    "pause": "Paused",
+    "resume": "Resume",
+    "settings": "Settings",
+    "map": "Map",
+    "journal": "Journal",
+    "achievements": "Achievements",
+    "credits": "Credits",
+    "reset": "Reset progress",
+    "resetConfirm": "Erase all progress and start again?",
+    "close": "Close",
+    "explored": "explored",
+    "charted": "Charted",
+    "rotate": "Turn your phone sideways to play.",
+    "noWebgl": "This game needs WebGL 2, which this browser or device does not provide. Try a recent version of Chrome, Safari, Firefox or Edge.",
+    "contextLost": "The graphics context was lost. Trying to recover…",
+    "corruptSave": "Your saved progress could not be read. You can start again.",
+    "hiddenAch": "Hidden achievement",
+    "tapToStart": "Tap or click to continue",
+    "tutMove": "Move: W A S D",
+    "tutMoveTouch": "Move: drag the left side of the screen",
+    "tutLook": "Look: click the view, then move the mouse",
+    "tutLookTouch": "Look: drag the right side of the screen",
+    "tutRun": "Hold Shift to run",
+    "tutRunTouch": "Push the stick all the way to run",
+    "tutMap": "Press M to open your map",
+    "tutMapTouch": "Tap the map button to open your map"
+  }
+}
